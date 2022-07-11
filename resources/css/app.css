@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(
+        to top,
+        #fdcbf1 0%,
+        #fdcbf1 1%,
+        #e6dee9 100%
+    );
+}
+
+/* Page d'accueil */
+
+.navbar {
+    background-color: white;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+nav {
+    display: flex;
+}
+
+.navbar a {
+    color: #aaa;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Création formulaire contact et entreprise */
+
+.form,
+ul {
+    max-width: 420px;
+    margin: 30px auto;
+    background: white;
+    text-align: left;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+label {
+    color: #aaa;
+    display: inline-block;
+    margin: 25px 0 15px;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+input,
+select,
+button {
+    display: block;
+    padding: 10px 6px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+}
+
+ul {
+    color: #aaa;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+button a,
+.delete button {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.success,
+.delete2 {
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 80px;
+    font-weight: bold;
+    text-align: center;
+}
